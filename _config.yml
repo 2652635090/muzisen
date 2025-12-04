@@ -1,17 +1,1 @@
-plugins:
-  - jekyll-remote-theme
-remote_theme: vaibhavvikas/jekyll-theme-minimalistic
-navigation:
-  - name: 指南首页
-    link: ./index.html  # 对应根目录的 index.md
-  - name: NapCat 安装
-    link: ./napcat-install.html  # 对应 napcat-install.md
-  - name: NapCat 配置
-    link: ./napcat-config.html
-    sublist:  # 二级子导航（比如配置指南下的细分章节）
-      - name: 基础配置
-        link: ./napcat-config-basic.html
-      - name: 高级配置
-        link: ./napcat-config-advanced.html
-  - name: 常见问题
-    link: ./faq.html
+theme: jekyll-theme-minimal
